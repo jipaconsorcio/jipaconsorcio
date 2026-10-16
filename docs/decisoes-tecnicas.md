@@ -51,6 +51,7 @@ Fontes de referência factual:
 
 - Nome e telefone são validados no navegador; o telefone é normalizado para 10 ou 11 dígitos com DDD.
 - A mensagem do WhatsApp é codificada com `encodeURIComponent`.
+- Telefone público, ligações, links de WhatsApp e envio do simulador usam `(69) 99307-7743`, com o código internacional `55` nos links. O destino está centralizado em `lib/site-config.ts`.
 - Dados não são enviados a backend, logs, cookies, analytics ou `localStorage`.
 - O checkbox de consentimento começa desmarcado e referencia a Política de Privacidade.
 - Headers aplicados: `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy` e `Permissions-Policy`.
@@ -83,5 +84,4 @@ Fontes de referência factual:
 - Domínio definitivo.
 - Identificação jurídica formal e canal de privacidade.
 - Licenças de imagem e marcas.
-- Confirmação da divergência entre o telefone público e o destino do WhatsApp exigido no briefing.
 - Confirmação de Paula, do vínculo comercial com cada marca e de qualquer claim sobre experiência ou resultados.

@@ -20,14 +20,16 @@ export function getSiteUrl() {
   );
 }
 
+const contactPhone = "5569993077743";
+
 export const siteConfig = {
   name: "JIPA Consórcios",
   legalName: "JIPA Consórcios",
   description:
     "Consórcio em Ji-Paraná com orientação clara para imóveis, veículos, motos, serviços e planejamento patrimonial.",
   phoneDisplay: "(69) 99307-7743",
-  phoneE164: "+5569993077743",
-  whatsappNumber: "5569993897171",
+  phoneE164: `+${contactPhone}`,
+  whatsappNumber: contactPhone,
   instagram: "https://www.instagram.com/jipaconsorcio/",
   mapsUrl: "https://maps.app.goo.gl/kceszozqj7NNUJ526",
   address: {

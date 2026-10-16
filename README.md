@@ -32,11 +32,12 @@ usado na validação registrada deste projeto.
 
 O simulador não estima parcelas reais nem envia dados para uma API. Depois de selecionar modalidade, forma e valor, o visitante informa nome, telefone e consentimento. A página monta a mensagem, abre o WhatsApp e o visitante confirma o envio.
 
+O contato público, as ligações e todos os links de WhatsApp, incluindo o envio do formulário, utilizam **(69) 99307-7743**. Os links internacionais usam o código do Brasil: `+5569993077743` para ligações e `5569993077743` para WhatsApp. O destino é centralizado em `lib/site-config.ts`.
+
 ## Confirmações obrigatórias antes da publicação
 
 - Confirmar o domínio canônico e preencher `NEXT_PUBLIC_SITE_URL`.
 - Confirmar a identificação jurídica formal do controlador, canal de privacidade e retenção interna para finalizar a Política de Privacidade.
-- Confirmar que o número de destino do simulador (`+55 69 99389-7171`) é o desejado; o contato público exibido e validado é `(69) 99307-7743`.
 - Confirmar o direito de uso das marcas Disal, Yamaha e HS antes do deploy definitivo. O site exibe cópias WebP otimizadas dos logotipos fornecidos pelo cliente.
 - Confirmar a licença da imagem aérea da casa e fornecer uma cópia local limpa/licenciada. O arquivo apareceu como referência com marca d’água, mas não estava disponível no filesystem do projeto e, por isso, não foi publicado.
 - Confirmar que as fotos de fachada, interior e Diego podem ser publicadas. As cópias locais foram preparadas a partir dos materiais fornecidos e da ficha pública da empresa no Google Maps.
